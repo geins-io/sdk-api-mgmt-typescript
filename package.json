@@ -1,0 +1,28 @@
+{
+  "name": "@geins/sdk-api-mgmt-typescript",
+  "version": "1.7.1",
+  "description": "OpenAPI client for @geins/sdk-api-mgmt-typescript",
+  "license": "MIT",
+  "author": "Geins",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geins-io/sdk-api-mgmt-typescript.git"
+  },
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/geins-io/sdk-api-mgmt-typescript/issues"
+  },
+  "homepage": "https://github.com/geins-io/sdk-api-mgmt-typescript#readme",
+  "dependencies": {},
+  "keywords": [
+    "typescipt"
+  ]
+}
